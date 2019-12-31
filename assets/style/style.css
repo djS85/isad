@@ -1,0 +1,64 @@
+body {
+    /*background-color: bisque;*/
+    background-image: url("../img/background.jpg");
+    min-width: 100%;
+    /*font-family: 'Roboto', sans-serif;*/
+    font-family: 'Lato', sans-serif;
+    color: bisque;
+    text-shadow: 2px 2px #000000;
+    font-weight: normal;
+}
+
+nav.navbar {
+    font-family: 'Dancing Script', cursive;
+    font-size: x-large;
+    /* background-color: burlywood; */
+    background-color: sienna;
+
+    text-shadow: none;
+}
+
+nav.navbar ul.navbar-nav li.nav-item a.nav-link {
+
+    color: bisque;
+
+}
+
+nav.navbar ul.navbar-nav li.nav-item a.nav-link:hover {
+
+    color: whitesmoke;
+
+}
+
+footer {
+    font-weight: bold;
+    color: black;
+    text-shadow: none;
+    /*background-color: burlywood;*/
+    background-color: sienna;
+    height: 50px;
+    margin-top: 250px;
+}
+
+div.container-fluid h1.page-head {
+
+    font-family: 'Dancing Script', cursive;
+    font-size: 50pt;
+    text-shadow: 2px 2px #000000;
+    color: bisque;
+    padding: 20pt;
+    font-weight: bold;
+
+}
+
+a.terms-cons{
+    font-weight: normal;
+    color: black;
+    text-decoration: none;
+}
+
+a.terms-cons:hover{
+    color: whitesmoke;
+}
+
+
