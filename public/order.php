@@ -84,14 +84,16 @@ if ( filter_input(INPUT_GET, 'delete_order') ) {
 <!-- PAGE HEADING -->
 <div class="container-fluid" align="center">
     <h1 class="page-head">
+        <img src="../assets/img/coffee-cup.png" width="40" height="40">
         Your Order
+        <img src="../assets/img/coffee-cup.png" width="40" height="40">
     </h1>
     <h4>
         <?php
         if (isset($_SESSION['username']) && isset($cm)) {
             echo "Hello " . $_SESSION['username'] . ' at Table ' . $cm->get_table() . "!!";
         } else {
-            echo 'Please enter a Name and Table Number!!';
+            echo 'You need to enter a Name and Table Number!!';
         }
         ?>
     </h4>

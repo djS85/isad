@@ -33,7 +33,9 @@ session_start();
 <!-- PAGE HEADING -->
 <div class="container-fluid" align="center">
     <h1 class="page-head">
-        Welcome
+        <img src="../assets/img/coffee-cup.png" width="40" height="40">
+            Welcome
+        <img src="../assets/img/coffee-cup.png" width="40" height="40">
     </h1>
 </div>
 
@@ -97,7 +99,7 @@ session_start();
                             $cm = create_customer($cm_ID, $name, $table);
                             addCustomer($cm);
 
-                            var_dump($cm);
+//                            var_dump($cm);
 
                             $_SESSION['username'] = $cm->get_name();
                             $_SESSION['table'] = $cm->get_table();

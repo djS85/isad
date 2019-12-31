@@ -35,7 +35,9 @@ if ( isset($_SESSION['order']) ) {
             ?>
 
             <h4 align="center">
+                <img src="../assets/img/coffee-cup.png" width="40" height="40">
                 Thank You For Your Order!!
+                <img src="../assets/img/coffee-cup.png" width="40" height="40">
             </h4>
 
             <p>

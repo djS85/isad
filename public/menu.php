@@ -77,18 +77,22 @@ $cm = $_SESSION['cm'];
 <!-- PAGE HEADING -->
 <div class="container-fluid" align="center">
     <h1 class="page-head">
+        <img src="../assets/img/coffee-cup.png" width="40" height="40">
         Food & Drink
+        <img src="../assets/img/coffee-cup.png" width="40" height="40">
     </h1>
     <h4>
         <?php
         if (isset($_SESSION['username']) && isset($cm)) {
             echo "Hello " . $_SESSION['username'] . ' at Table ' . $cm->get_table() . "!!";
         } else {
-            echo 'Please enter a Name and Table Number!!';
+            echo 'You have not entered a Name and Table number!!';
         }
         ?>
     </h4>
 </div>
+
+<br>
 
 <div class="container-fluid">
 
@@ -97,8 +101,8 @@ $cm = $_SESSION['cm'];
         <div class="col-xs-12 col-sm-12 col-md-10">
 
             <div class="container-fluid">
-                <h2 class="page-head" style="font-family: 'Dancing Script', cursive;  font-size: 40pt;">
-                    Drinks
+                <h2 class="page-head" style="font-family: 'Dancing Script', cursive;  font-size: 50pt;">
+                    Drinks <img src="../assets/img/coffee.png" width="32" height="32">
                 </h2>
             </div>
 
@@ -156,8 +160,8 @@ $cm = $_SESSION['cm'];
         <div class="col-xs-12 col-sm-12 col-md-10">
 
             <div class="container-fluid">
-                <h2 class="page-head" style="font-family: 'Dancing Script', cursive; font-size: 40pt;">
-                    Food
+                <h2 class="page-head" style="font-family: 'Dancing Script', cursive; font-size: 50pt;">
+                    Food <img src="../assets/img/cake.png" width="32" height="32">
                 </h2>
             </div>
 

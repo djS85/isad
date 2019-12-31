@@ -13,7 +13,7 @@ nav.navbar {
     font-family: 'Dancing Script', cursive;
     font-size: x-large;
     /* background-color: burlywood; */
-    background-color: sienna;
+    background-color: #4C301D;
 
     text-shadow: none;
 }
@@ -35,7 +35,7 @@ footer {
     color: black;
     text-shadow: none;
     /*background-color: burlywood;*/
-    background-color: sienna;
+    background-color: #4C301D;
     height: 50px;
     margin-top: 250px;
 }

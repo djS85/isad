@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8576c0e0-c9b9-4ad0-b5df-423717c2ff3b" name="Default Changelist" comment="" />
+    <list default="true" id="8576c0e0-c9b9-4ad0-b5df-423717c2ff3b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/img/cake.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/coffee-cup.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/background.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/conf.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/conf.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/order.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/order.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,16 +31,23 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1V6vRBnGqbjyXxTXOrEPtwowPt4" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.breadcrumbs" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Program Files (x86)\Ampps\www\CoffeeShopApp\assets\img" />
+      <recent name="C:\Program Files (x86)\Ampps\www\CoffeeShopApp\assets" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Program Files (x86)\Ampps\www\app\assets\img" />
       <recent name="C:\Program Files (x86)\Ampps\www\app\public" />
@@ -68,10 +86,22 @@
       <workItem from="1577625719993" duration="8422000" />
       <workItem from="1577708035033" duration="10940000" />
       <workItem from="1577727717974" duration="14728000" />
+      <workItem from="1577805281888" duration="3121000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

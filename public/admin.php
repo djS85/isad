@@ -30,7 +30,9 @@ include_once "header.php";
 <!-- PAGE HEADING -->
 <div class="container-fluid" align="center">
     <h1 class="page-head">
+        <img src="../assets/img/coffee-cup.png" width="40" height="40">
         Admin
+        <img src="../assets/img/coffee-cup.png" width="40" height="40">
     </h1>
 </div>
 
