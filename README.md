@@ -1,41 +1,15 @@
-# isad
-coffee shop ordering system
+#ISAD 251 Database Driven Coffee Shop App.
 
-User Stories : 
 
- - As a customer I wish to order a drink/snack.
- 
- - As a customer I wish to see what I have ordered.
- 
- - As a customer I wish to add to my current order for a drink/snack.
- 
- - As a customer I wish to cancel my order for a drink/snack.
- 
- - As the admin I wish to enter details of the drinks/snacks I have for sale.
- 
- - As the admin I wish to read the details of the drinks/snacks I have for sale.
- 
- - As the admin I wish to view a customer’s order(s).
- 
- - As the admin I wish to edit the details of the drinks/snacks I have for sale.
- 
- - As the admin I wish to withdraw a drink/snack from sale.
- 
- 
- file_layout:
- 
- root/
-     config/
-         #application
-     public/
-         index.php
-         header.php
-         footer.php
-     src/
-         controller/
-         model/
-         view/
-     assets/
-         img/
-     templates/
-          template.php
+Bootstrap4 - CDN links in header.php https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css
+                                     https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js
+                                     
+
+Image Assets
+
+- coffee.png url = https://www.flaticon.com/free-icon/coffee_1046785?term=coffee%20cup&page=1&position=12
+- coffee-cup.png url = https://www.flaticon.com/free-icon/coffee-cup_924514?term=coffee%20cup&page=1&position=20
+- cake.png url = https://www.flaticon.com/free-icon/cake_1102964?term=Cake&page=1&position=93
+- background.jpg url = https://cdn.shopify.com/s/files/1/1003/7610/products/Dark_wood_texture_Wall_Mural_Wallpaper_a_1400x.jpg?v=1526993340
+                                
+                                
