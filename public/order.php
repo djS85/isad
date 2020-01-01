@@ -88,15 +88,32 @@ if ( filter_input(INPUT_GET, 'delete_order') ) {
         Your Order
         <img src="../assets/img/coffee-cup.png" width="40" height="40">
     </h1>
-    <h4>
+
         <?php
         if (isset($_SESSION['username']) && isset($cm)) {
-            echo "Hello " . $_SESSION['username'] . ' at Table ' . $cm->get_table() . "!!";
+            ?>
+            <h4><? echo "Hello " . $_SESSION['username'] . ' at Table ' . $cm->get_table() . "!!"; ?></h4>
+    <?php
+
         } else {
-            echo 'You need to enter a Name and Table Number!!';
+//            echo 'You need to enter a Name and Table Number!!';
+        ?>
+            <div class="container-fluid">
+                <div class="card">
+                    <h6>You have not entered any Details yet !!
+                        <br>
+                        <a href="index.php">Click Here</a>
+                        <br>
+                        to go back.
+                    </h6>
+                </div>
+            </div>
+    <?php
+
+
         }
         ?>
-    </h4>
+
     <p>
         Click 'Submit Order' when you're ready.
     </p>

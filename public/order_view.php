@@ -36,6 +36,7 @@ include_once "header.php";
             <th>Order Date</th>
             <th>Order Total</th>
             <th>Customer Name</th>
+            <th>Table No.</th>
         </tr>
         </thead>
 
@@ -49,6 +50,7 @@ include_once "header.php";
 
                 foreach ( $orders as $order ) :
                     $name = getCustomerNameByID($order['customer_id']);
+                    $table = getTableByID($order['customer_id']);
                     ?>
 
 
@@ -58,6 +60,7 @@ include_once "header.php";
                         <td><? echo $order['order_date']; ?></td>
                         <td>£<? echo number_format($order['order_total'], 2); ?></td>
                         <td><? echo $name; ?></td>
+                        <td><? echo $table; ?></td>
                     </tr>
             <?php
                 endforeach;
@@ -89,6 +92,7 @@ include_once "header.php";
                 <tr style="color: black;">
                     <th>Product Name</th>
                     <th>Quantity</th>
+                    <th>Price (each)</th>
                 </tr>
                 </thead>
 
@@ -98,18 +102,22 @@ include_once "header.php";
                 if ( filter_input(INPUT_POST, 'get_orderItems') ) :
                     $id = $_POST['order_id'];
                     $orderItems = getOrderItemsByID($id);
+                    $total = getOrderTotalByID($id);
 
                     ?>
-                        <h7>Items on order: <? echo $id; ?></h7>
+                        <h4>Items on order: <? echo $id; ?></h4>
                 <?php
 
                     foreach ( $orderItems as $item ) :
                         $product_name = getProductNameByID($item['product_id']);
+                        $price = getPriceByID($item['product_id']);
+//                        $total = getPriceByID($id);
                         ?>
 
                         <tr>
                             <td><? echo $product_name; ?></td>
                             <td><? echo $item['product_qty']; ?></td>
+                            <td>£<? echo number_format($price, 2); ?></td>
                         </tr>
 
                     <?php
@@ -117,6 +125,23 @@ include_once "header.php";
                 endif;
                 ?>
                 </tbody>
+
+                <thead>
+                    <tr>
+                        <th>Total: </th>
+
+                        <?php
+                            if ( isset($total) ) {
+
+                                ?>
+                                <td>£<? echo $total; ?></td>
+                        <?php
+
+                            }
+                        ?>
+                    </tr>
+                </thead>
+
             </table>
         </div>
         <div class="col-md-4"></div>

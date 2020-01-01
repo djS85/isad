@@ -61,4 +61,24 @@ a.terms-cons:hover{
     color: whitesmoke;
 }
 
+body div.container-fluid div.row div.col-xs-4.col-sm-4.col-md-4 div.container-fluid h6 a {
+    color: bisque;
+    font-family: 'Dancing Script', cursive;
+    text-decoration: none;
+    font-size: 40pt;
+}
 
+body div.container-fluid div.row div.col-xs-4.col-sm-4.col-md-4 div.container-fluid h6 a:hover {
+    color: brown;
+
+}
+
+body div.container-fluid div.container-fluid div.card {
+    background-color: #4C301D;
+    width: 35%;
+}
+
+body div.container-fluid div.container-fluid div.card h6 {
+    text-shadow: none;
+    text-decoration: none;
+}

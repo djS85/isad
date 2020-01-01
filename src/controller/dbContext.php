@@ -101,6 +101,54 @@ function getCustomerNameByID($id) {
 
 }
 
+function getPriceByID($id) {
+
+    $products = getAll('products');
+
+    $price = 0.0;
+
+    foreach ( $products as $product ) {
+        if ( $product['product_id'] == $id ) {
+            $price = $product['product_price'];
+        }
+    }
+
+    return $price;
+
+}
+
+function getOrderTotalByID($id) {
+
+    $orders = getAll('orders');
+
+    $price = 0.0;
+
+    foreach ( $orders as $order ) {
+        if ( $order['order_id'] == $id ) {
+            $price = $order['order_total'];
+        }
+    }
+
+    return number_format($price, 2);
+
+}
+
+function getTableByID($id) {
+
+    $cms = getAll('customers');
+
+    $table = 0;
+
+    foreach ( $cms as $cm ) {
+        if ( $cm['customer_id'] == $id ) {
+            $table = $cm['customer_table'];
+        }
+    }
+
+    return $table;
+
+}
+
 function getAll($table) {
 
     $conn = getConn();

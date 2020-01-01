@@ -113,10 +113,31 @@ session_start();
             </form>
 
         </div>
-
+        <div class="col-xs-3 col-sm-3 col-md-3"></div>
     </div>
 
-    <div class="col-xs-3 col-sm-3 col-md-3"></div>
+    <div class="row">
+
+        <div class="col-xs-4 col-sm-4 col-md-4"></div>
+
+        <div class="col-xs-4 col-sm-4 col-md-4">
+
+            <div class="container-fluid" align="center">
+
+                <h6>Once You've entered your details,
+                    <br>
+                    <a href="menu.php">Click Here</a>
+                    <br>
+                    to start your order.
+                </h6>
+
+            </div>
+
+        </div>
+
+        <div class="col-xs-4 col-sm-4 col-md-4"></div>
+
+    </div>
 
 </div>
 

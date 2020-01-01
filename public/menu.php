@@ -81,15 +81,28 @@ $cm = $_SESSION['cm'];
         Food & Drink
         <img src="../assets/img/coffee-cup.png" width="40" height="40">
     </h1>
-    <h4>
+
         <?php
         if (isset($_SESSION['username']) && isset($cm)) {
             echo "Hello " . $_SESSION['username'] . ' at Table ' . $cm->get_table() . "!!";
         } else {
-            echo 'You have not entered a Name and Table number!!';
+//            echo 'You have not entered a Name and Table number!!';
+            ?>
+            <div class="container-fluid">
+                <div class="card">
+                    <h6>You have not entered any Details yet !!
+                        <br>
+                        <a href="index.php">Click Here</a>
+                        <br>
+                        to go back.
+                    </h6>
+                </div>
+            </div>
+        <?php
+
         }
         ?>
-    </h4>
+
 </div>
 
 <br>
