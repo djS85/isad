@@ -15,13 +15,14 @@ function check_input($inp) {
     return $inp;
 }
 
+// REMOTE CONNECTION
 // return connection to database.
 function getConn() {
 
-    $servername = "127.0.0.1";
-    $dbname     = "db_CoffeeShop";
-    $username   = "djs";
-    $pwd        = "pwd";
+    $servername = "proj-mysql.uopnet.plymouth.ac.uk";
+    $dbname     = "isad251_dsouthern";
+    $username   = "DSouthern";
+    $pwd        = "ISAD251_10603207";
 
     $conn = new mysqli($servername, $username, $pwd, $dbname);
 
@@ -35,6 +36,27 @@ function getConn() {
     return $conn;
 
 }
+
+// // return connection to database.
+// function getConn() {
+
+//     $servername = "127.0.0.1";
+//     $dbname     = "db_CoffeeShop";
+//     $username   = "djs";
+//     $pwd        = "pwd";
+
+//     $conn = new mysqli($servername, $username, $pwd, $dbname);
+
+//     if ( $conn->connect_error ) {
+//         die("Connection Failed: " . $conn->connect_error );
+//     }
+// //    else {
+// //        echo "Successfully connected!";
+// //    }
+
+//     return $conn;
+
+// }
 
 function getOrdersByDateDesc() {
 
